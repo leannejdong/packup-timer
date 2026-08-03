@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pack-Up Timer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="stage">
+  <div class="cat-wrap">
+    <img class="cat-img" id="catImg" alt="Ginger cat sitting in a carrier, staring intently" src="cat.jpg">
+  </div>
+  <div class="overlay-tint" id="tint"></div>
+
+  <button class="fullscreen-btn" id="fsBtn">Fullscreen</button>
+
+  <div class="hud">
+    <div class="label" id="statusLabel">Pack-up time</div>
+    <div class="clock" id="clock">05:00</div>
+    <div class="done-msg" id="doneMsg">Time's up — pack up now! 🐾</div>
+
+    <div class="presets">
+      <button data-min="1">1m</button>
+      <button data-min="2">2m</button>
+      <button data-min="5" class="active">5m</button>
+      <button data-min="10">10m</button>
+    </div>
+
+    <div class="controls">
+      <button class="primary" id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+  </div>
+</div>
+
+<script src="timer.js"></script>
+</body>
+</html>
