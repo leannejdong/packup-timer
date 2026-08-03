@@ -59,11 +59,11 @@ Then in the repo on github.com: **Settings → Pages → Deploy from branch**
 
 ### Cloudflare Pages
 Go to pages.cloudflare.com → "Upload assets" → drag in the whole
-`packup-timer` folder. You'll get a `*.pages.dev` URL immediately, and you
+`packup-timer` folder. There will be a `*.pages.dev` URL immediately, and we
 can map it to a subdomain (e.g. `timer.spacetimeit.com`) afterward.
 
-### Your own NAS / Cloudflare Tunnel
-Copy the `packup-timer` folder into whatever directory your tunnel already
+### NAS / Cloudflare Tunnel
+Copy the `packup-timer` folder into whatever directory the tunnel already
 serves for spacetimeit.com (e.g. as a `/timer` subpath), no extra config
 needed since it's just static files.
 
