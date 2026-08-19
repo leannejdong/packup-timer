@@ -30,7 +30,8 @@ html, body {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 20%;
+  filter: saturate(1.05) contrast(1.02) brightness(0.85);
   transition: filter 0.6s ease, transform 0.3s ease;
   transform-origin: center;
 }

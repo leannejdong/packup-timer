@@ -40,7 +40,9 @@ function render() {
     statusLabel.textContent = 'Pack-up time';
   }
 
-  catImg.style.filter = pct <= 0.34 ? 'saturate(1.25) contrast(1.08)' : 'saturate(1.05) contrast(1.02)';
+  catImg.style.filter = pct <= 0.34
+    ? 'saturate(1.25) contrast(1.08) brightness(0.85)'
+    : 'saturate(1.05) contrast(1.02) brightness(0.85)';
 }
 
 function tick() {
